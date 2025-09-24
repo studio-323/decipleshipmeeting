@@ -141,6 +141,7 @@ img{
   padding-left: 22px;
   display: flex;
   justify-content: center;
+  align-items: center;
 
     .container{
       box-sizing: border-box;
@@ -354,7 +355,9 @@ img{
       padding-right: 16px;
 
       .img-container{
-        width: 100%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;        
         height: auto;
         margin-top: 56px;
       }
